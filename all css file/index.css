@@ -1,15 +1,52 @@
-h1{text-align: center; font-size: 24px;}
 
-div{font-size: 120%;}
+h1{
+  text-align: center;
+font-size: 22px;
+}
+  p{
+font-size: 120%;
+  }
+  .wic{
+display: inline-block;
+background:red;
+color:gold;
+}
+  .wic:hover{
+ background:magenta;
+ color:brown;
+}
+.wic:active{
+background:yellow;
+color: green;
+}
+.wic1{
+  display: inline-block;
+ background:coral;
+ color:white;
+}
+  .wic1:hover{
+ background:purple;
+ color:white;
+}
+.wic2{
+  display: inline-block;
+background:brown;
+color: green;
+}
+   .wic2:hover{
+ background:lime;
+ color:teal;
+}
+  .wic3{
+    display: inline-block;
+background:black;
+color: orange;
+}
+   .wic3:hover{
+ background:violet;
+ color:navy;
+}
 
-a.silka1:link{color: aqua;}
-    a.silka1:visited{color: black;}
-a.silka2:link{color:red;}
-    a.silka2:visited{color: green;}
-a.silka3:link{color: blue;}
-    a.silka3:visited{color: magenta;}
-a.silka4:link{color: blueviolet;}
-    a.silka4:visited{color: pink;}
 @media (min-width: 993px) {
 a{
     width: 25%;
