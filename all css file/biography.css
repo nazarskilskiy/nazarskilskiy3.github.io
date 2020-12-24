@@ -1,1 +1,117 @@
 
+
+#top1{text-align: center; font-size: 22px;}
+#kursiv{font-style: italic;}
+h3{text-align: center;}
+.knopka{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 100px;
+    background: deepskyblue;
+    box-shadow: 0 -3px dodgerblue inset;
+    transition: 0.2s;}
+.knopka:hover {
+    background: magenta;
+    box-shadow: none;
+    color: black;}
+.knopka:active {
+    background: yellow;
+}
+article{
+    font-size: 120%;
+    padding: 5px;
+}
+h2{font-size: 1.8em;}
+.zmist{font-weight: 600;}
+#first{
+    background-color: aqua;
+    border: 1px solid black;
+}
+#second{
+    background-color: yellow;
+    border: 1px solid black;
+}
+#third{
+    background-color: deeppink;
+    border: 1px solid black;
+}
+#forth{
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+#fifth{
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+#propis{text-transform: uppercase;}
+
+
+
+@media screen and (min-width: 993px){
+    .perhiy{
+    width: 33.33%;
+    float: left;
+    }
+    .drygoi{
+        width: 33.33%;
+        float: left;
+    }
+    .treriy{
+        width: 33.33%;
+        float: left;
+    }
+    .chetver{
+        width: 50%;
+        float: left;
+    }
+    .pyti{
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .perhiy{
+        width: 50%;
+        float: left;
+    }
+    .drygoi{
+        width: 50%;
+        float: left;
+    }
+    .treriy{
+        width: 50%;
+        float: left;
+    }
+    .chetver{
+        width: 50%;
+        float: left;
+    }
+    .pyti{
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .perhiy{
+        width: 100%;
+        float: left;
+    }
+    .drygoi{
+        width: 100%;
+        float: left;
+    }
+    .treriy{
+        width: 100%;
+        float: left;
+    }
+    .chetver{
+        width: 100%;
+        float: left;
+    }
+    .pyti{
+        width: 100%;
+        float: left;
+    }
+}
