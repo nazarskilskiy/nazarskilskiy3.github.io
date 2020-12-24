@@ -5,15 +5,15 @@
 h3{text-align: center;}
 .knopka{
     font-weight: 700;
-    color: white;
+    color:blue;
     text-decoration: none;
     padding: 7px;
     border-radius: 100px;
-    background: deepskyblue;
-    box-shadow: 0 -3px dodgerblue inset;
+    background: deepskyred;
+    box-shadow: 0 -3px dodgerred inset;
     transition: 0.2s;}
 .knopka:hover {
-    background: magenta;
+    background: green;
     box-shadow: none;
     color: black;}
 .knopka:active {
@@ -26,23 +26,23 @@ article{
 h2{font-size: 1.8em;}
 .zmist{font-weight: 600;}
 #first{
-    background-color: aqua;
+    background-color:violet;
     border: 1px solid black;
 }
 #second{
-    background-color: yellow;
+    background-color: orange;
     border: 1px solid black;
 }
 #third{
-    background-color: deeppink;
+    background-color: teal;
     border: 1px solid black;
 }
 #forth{
-    background-color: blueviolet;
+    background-color: lime;
     border: 1px solid black;
 }
 #fifth{
-    background-color: chartreuse;
+    background-color: browm;
     border: 1px solid black;
 }
 #propis{text-transform: uppercase;}
