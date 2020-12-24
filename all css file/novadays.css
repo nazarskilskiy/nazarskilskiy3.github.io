@@ -1,1 +1,48 @@
+h1{text-align: center; font-size: 22px;}
+a{font-style: italic;}
+h2{text-align: center;}
 
+.bckcolor{
+    background-color: red;
+}
+
+.bckcolor:nth-child(2n){
+    background-color: blue;
+}
+.bckcolor2{
+    background-color: blue;
+}
+
+
+.kursor{cursor: pointer;}
+#fon{background-color: violet;}
+@media (min-width: 993px){
+    .persiyspisok{
+    width: 50%;
+    float: left;
+}
+    #drygoyspisok{
+        width: 50%;
+        float: left;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .persiyspisok{
+        width: 100%;
+        float: left;
+    }
+    #drygoyspisok{
+        width: 100%;
+        float: left;
+    }
+}
+@media (max-width: 768px){
+    .persiyspisok{
+        width: 100%;
+        float: left;
+    }
+    #drygoyspisok{
+        width: 100%;
+        float: left;
+    }
+}
