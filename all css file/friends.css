@@ -1,1 +1,33 @@
-
+h1{text-align: center; font-size: 22px;}
+a{font-style: italic;}
+h2{text-align: center;}
+.ryadok1{text-align: center;background-color: red; color: black; font-weight: 600;}
+.grey{background-color: navy;}
+.white{background-color: orange;}
+.telephone{text-align: right;}
+th{border: black; border-width: 2px; border-style: solid; padding: 10px; text-align: center;}
+td{border: black; border-width: 2px; border-style: solid; padding: 3px; text-align: center;}
+@media (min-width: 993px){
+    th{
+        font-size: 130%;
+    }
+    td{
+        font-size: 120%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    th{
+        font-size: 120%;
+    }
+    td{
+        font-size: 110%;
+    }
+}
+@media (max-width: 768px){
+    th{
+        font-size: 110%;
+    }
+    td{
+        font-size: 100%;
+    }
+}
